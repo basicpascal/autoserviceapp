@@ -15,6 +15,7 @@ public class CarNoteRepository {
 
     private final CarNoteDao carNoteDao;
 
+
     public CarNoteRepository(Application application){
 
         CarNoteDatabase db = CarNoteDatabase.getInstance(application);
